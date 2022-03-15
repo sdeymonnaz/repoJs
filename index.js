@@ -1,8 +1,8 @@
 let noValgoNi5 = 4;
 console.log("noValgoNi5: ", noValgoNi5);
 
-let miAnioDeNacimiento = 1976;
-let meGustariaTener80Anios = 80;
+const miAnioDeNacimiento = 1976;
+const meGustariaTener80Anios = 80;
 let voyATener80AniosElAnio = miAnioDeNacimiento + meGustariaTener80Anios;
 console.log("Voy a tener 80 años en el año: ", voyATener80AniosElAnio);
 
@@ -11,12 +11,12 @@ let ahorrros = 9000;
 let dineroQueMeFalta = costoDeUnaTele - ahorrros;
 console.log("Dinero que me falta para comprarme una tele: ", dineroQueMeFalta);
 
-let diasPorAnio = 365;
-let cantidadDeAniosEnUnaDecada = 10;
-let cantidadDeDiasEnUnaDecada = diasPorAnio * cantidadDeAniosEnUnaDecada;
+const diasPorAnio = 365;
+const cantidadDeAniosEnUnaDecada = 10;
+const cantidadDeDiasEnUnaDecada = diasPorAnio * cantidadDeAniosEnUnaDecada;
 console.log("Cantidad de dias en una decada: ", cantidadDeDiasEnUnaDecada);
 
-let porcionesPorPizza = 8;
+const porcionesPorPizza = 8;
 let porcionesContadas = 24;
 let cantidadDePizzas = porcionesContadas / porcionesPorPizza;
 console.log("Cantidad de pizzas que puedo comer: ", cantidadDePizzas);
@@ -41,7 +41,7 @@ let noEstamosEnEnero = mesActual !== "enero";
 console.log("No estamos en enero: ", noEstamosEnEnero);
 
 let miNotaEnElParcial = 8;
-let notaMinimaParaAprovar = 6;
+const notaMinimaParaAprovar = 6;
 let estoyAprobado = miNotaEnElParcial >= notaMinimaParaAprovar;
 console.log("Estoy aprobado: ", estoyAprobado);
 
